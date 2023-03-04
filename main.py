@@ -54,6 +54,7 @@ text_rect = text_surface.get_rect(center=(window_width/2, window_height/2))
 music = pygame.mixer.Sound("./audio/music.mp3")
 music.play(loops=-1)
 
+
 # simple sprites
 for file_name, pos_list in SIMPLE_OBJECTS.items():
     path = f"./graphics/objects/simple/{file_name}.png"
